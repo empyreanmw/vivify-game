@@ -1,0 +1,17 @@
+{
+    "name": "empyrean/vivify-test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "empyreanmw",
+            "email": "empyreanmw@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {"App\\": "src/"}
+},
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
